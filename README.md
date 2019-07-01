@@ -33,6 +33,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
   Application level State is global and accessible throughout all components within an application. Component state is only accessable within the component in which it is defined or child components if it is passes as props. Application level state should be used when the data should be accessible throughout an application and component state should be used when the data only pertains to that component and would be trivial to store at the state level.
 
 - [ ] Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
+
   Redux thunk is a middleware package that allows redux actions-creators to run asynchronous operations.
 
 
